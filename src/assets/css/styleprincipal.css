@@ -234,6 +234,23 @@ nav a:hover {
     letter-spacing: 2px;
 }
 
+.btn-ver-detalles {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+a {
+  color: black;
+  text-decoration: none; 
+  cursor: pointer; 
+}
+
+
 /* Estilos para el modal */
 .modal {
     display: none;
