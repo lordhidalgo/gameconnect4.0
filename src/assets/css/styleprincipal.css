@@ -91,7 +91,7 @@ nav a:hover {
 #search-bar {
     padding: 10px;
     width: 50%;
-    border: none;
+    border: 2px;
     border-radius: 10px;
     background-color: #252323;
 }
@@ -428,7 +428,6 @@ a {
     background-color: white;
     border: none;
     color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     transition: 0.5s;
     cursor: pointer;
@@ -787,7 +786,7 @@ a {
 
 /* Estilos para el área de formulario */
 .area-formulario input[required], textarea[required] {
-    border-color: #f28d8d;
+    border-color: white;
 }
 
 .zona_formulario {
@@ -806,7 +805,6 @@ a {
     margin-top: 20px;
     border-top: #ff5722 3px solid;
     box-shadow: 0 12px 20px rgba(255, 87, 34, 0.5);
-    filter: grayscale(100%);
 }
 
 .area-formulario {

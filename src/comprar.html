@@ -1,11 +1,26 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pasarela de compras.</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Finalizar Compra</title>
+  <link rel="stylesheet" href="/src/assets/css/styleprincipal.css"/>
 </head>
 <body>
-    
+  <h1>Resumen de tu pedido</h1>
+
+  <div id="carrito-resumen"></div>
+  <p>Total: $<span id="total-final">0</span></p>
+
+  <form id="form-pago">
+    <h2>Información del cliente</h2>
+    <input type="text" placeholder="Nombre completo" required />
+    <input type="email" placeholder="Correo" required />
+    <input type="text" placeholder="Dirección" required />
+    <button type="submit">Pagar</button>
+  </form>
+
+  <script src="/src/js/checkout.js"></script>
 </body>
 </html>

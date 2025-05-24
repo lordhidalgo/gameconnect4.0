@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
             buyButton.textContent = 'Comprar';
             buyButton.addEventListener('click', function() {
                 // Redirigir a una página de pago o detalles del carrito
-                window.location.href = '/pagina-de-pago'; // Cambia esto a la URL de tu página de pago
+                window.location.href = '/src/comprar.html'; // Cambia esto a la URL de tu página de pago
             });
             cartItemsContainer.appendChild(buyButton);
         }
